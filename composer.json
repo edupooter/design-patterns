@@ -1,5 +1,12 @@
 {
+  "name": "edupoooter/design-patterns",
+  "description": "exemplos do livro tdd com php",
   "require": {
     "php": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\Oop\\": "src/Oop/"
+    }
   }
 }
