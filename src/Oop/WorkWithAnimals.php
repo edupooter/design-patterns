@@ -45,7 +45,8 @@ class Animal
 
 class Dog extends Animal
 {
-  function __construct() {
+  function __construct()
+  {
     $this->setSound('Bark');
   }
 
@@ -64,7 +65,8 @@ class Dog extends Animal
 
 class Cat extends Animal
 {
-  function __construct() {
+  function __construct()
+  {
     $this->setSound('Meow');
   }
 }
@@ -73,7 +75,7 @@ $fido = new Dog();
 
 $fido->setName('Fido');
 
-echo $fido->getName()."\n";
+echo $fido->getName() . "\n";
 
 $fido->digHole();
 
